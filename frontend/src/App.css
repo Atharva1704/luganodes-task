@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.tables{
+  margin: 10rem;
+  height: 100%;
+  width: 80%;
+}
+
+.title{
+  margin-top: 5rem;
+}
+
+.titleName{
+  font-size: 4rem;
+}

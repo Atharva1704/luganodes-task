@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/deposits', async (req, res) => {
     try {
-        res.send("Deposits!");
+        console.log("data sending!");
         const deposits = await Deposit.find();
         res.json(deposits);
     } catch (error) {

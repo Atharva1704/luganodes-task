@@ -2,10 +2,10 @@ import mongoose from 'mongoose';
 
 const depositSchema = new mongoose.Schema({
   blockNumber: Number,
-  blockTimestamp: Number,
+  blockTimestamp: Date,
   fee: {
     type: Number,
-    default: 0, 
+    default: 0,
   },
   hash: String,
   pubkey: String,
