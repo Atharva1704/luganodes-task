@@ -11,4 +11,4 @@ const depositSchema = new mongoose.Schema({
   pubkey: String,
 });
 
-export default mongoose.model('Deposit', depositSchema);
+export default mongoose.model('Deposits', depositSchema);

@@ -1,11 +1,10 @@
 import express from 'express';
-import Deposit from '../models/Deposit.js';
+import Deposit from '../models/Deposits.js';
 
 const router = express.Router();
 
 router.get('/deposits', async (req, res) => {
     try {
-        console.log("data sending!");
         const deposits = await Deposit.find();
         res.json(deposits);
     } catch (error) {
